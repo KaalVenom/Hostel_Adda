@@ -1,7 +1,7 @@
 
 <% layout("/layouts/boilerplate") %>
 
-    <style>
+    <!-- <style>
         #filters{
             display: flex;
             flex-wrap: wrap;
@@ -36,9 +36,9 @@
             display: flex;
             align-items: center;
         }
-    </style>
+    </style> -->
 
-    <div id="filters">
+    <!-- <div id="filters">
         <div class="filter">
            <div><i class="fa-solid fa-fire"></i></div> 
            <p>Trending</p>
@@ -102,7 +102,7 @@
                 <label class="form-check-label" for="flexSwitchCheckDefault">Display total after taxes</label>
               </div>
          </div>
-    </div>
+    </div> -->
 
 
     <div class="row row-cols-lg-3  row-cols-md-2   row-cols-sm-1 mt-3">
@@ -111,12 +111,15 @@
             <a href="/listings/<%=listing._id%>" class="listing-link">
             <div class="card col listing-card" >
                <img src=" <%= listing.image.url%>" class="card-img-top" alt="listing_image" style="height:20rem">
+               
+                    <!-- yaha pe slider corousel of image daalo -->
+
                <div class="card-img-overlay"> </div>
                 <div class="card-body">
                 <p class="card-text">
                 <b>    <%= listing.title %></b> <br>
                     &#8377; <%=listing.price.toLocaleString("en-IN")%>
-                     / night
+                     / month
                      <i class="tax-info">&nbsp;&nbsp; +18% GST</i>
                 </p>
                 </div>
