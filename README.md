@@ -27,15 +27,15 @@ Hostel_Adda is a web application designed to simplify the process of finding and
 
 ## FOLDER STRUCTURE
 Hostel_Adda/  
-├── public/             # Static files (CSS, JS, images)  
-├── routes/             # Application routes  
-├── views/              # EJS templates  
-├── models/             # Database schemas  
-├── controllers/        # Request handlers and logic  
-├── utils/              # Utility functions (e.g., error handlers)  
-├── .env                # Environment variables  
-├── app.js              # Main application file  
-└── README.md           # Project documentation  
+├── public/    _______        # Static files (CSS, JS, images)  
+├── routes/       _______       # Application routes  
+├── views/        _______       # EJS templates  
+├── models/        _______      # Database schemas  
+├── controllers/    _______     # Request handlers and logic  
+├── utils/          _______     # Utility functions (e.g., error handlers)  
+├── .env            _______     # Environment variables  
+├── app.js          _______     # Main application file  
+└── README.md        _______    # Project documentation  
 
 
 
