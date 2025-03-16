@@ -17,7 +17,7 @@ module.exports.signup=async(req,res)=>{
             if(err){
                 next(err);
             }
-            req.flash("success","Welcome to TOURISMO");
+            req.flash("success","Welcome to Hostel_Adda");
             res.redirect("/listings");
         })
 
@@ -35,7 +35,7 @@ module.exports.renderLoginForm=(req,res)=>{
 
 
 module.exports.login=async(req,res)=>{
-    req.flash("success","Welcome back to TOURISMO!");
+    req.flash("success","Welcome back to Hostel_Adda!");
     let redirectUrl=res.locals.redirectUrl || "/listings";
     res.redirect(redirectUrl);
 };
