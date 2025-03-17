@@ -26,6 +26,7 @@ Hostel_Adda is a web application designed to simplify the process of finding and
   - Mapbox API for maps and location services  
 
 ## FOLDER STRUCTURE
+```plaintext
 Hostel_Adda/  
 ├── public/    _______        # Static files (CSS, JS, images)  
 ├── routes/       _______       # Application routes  
